@@ -13,8 +13,8 @@ give_me_a_car = Car()
 give_me_a_yugo = Yugo()
 
 
-print(give_me_a_car.explaim())
-print(give_me_a_yugo.explaim())
+give_me_a_car.explaim()
+give_me_a_yugo.explaim()
 
 # 02 Переопределение методов:
 class Person():
