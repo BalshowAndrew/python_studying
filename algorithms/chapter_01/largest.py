@@ -1,7 +1,7 @@
 import numpy as np
 from timing import get_time
 
-data1 = np.arange(0, 1_000_000)
+data1 = np.arange(1, 1_000_000)
 data2 = np.arange(999_999, 0, -1)
 
 def largest(A):
